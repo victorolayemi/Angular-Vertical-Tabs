@@ -1,34 +1,24 @@
-# Angular-Vertical-Tabs
+# NgVerticalTabs
 
+This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.9.
 
-## Usage
+## Code scaffolding
 
-See [example](src/app). Only difference in your app is your imports:
+Run `ng generate component component-name --project ng-vertical-tabs` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ng-vertical-tabs`.
+> Note: Don't forget to add `--project ng-vertical-tabs` or else it will be added to the default project in your `angular.json` file. 
 
-    import { MaterialTabsModule } from 'angular-vertical-material-tabs/dist/material-tabs';
-    
-    // add it to the `imports:` of your relevant `@NgModule`
-    imports: [ MaterialTabsModule.forRoot() ]
+## Build
 
-Then in your template:
+Run `ng build ng-vertical-tabs` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-    <ng-vertical-material-tabs [multi]=true [selectFirstTab]=false [showSelectAll]=true>
-      <ng-vertical-material-tab tabTitle="Tab 0">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Mauris tincidunt mattis neque lacinia dignissim.
-        Morbi ex orci, bibendum et varius vel, porttitor et magna.
-      </ng-vertical-material-tab>
-    
-      <ng-vertical-material-tab tabTitle="Tab b">
-        Curabitur efficitur eleifend nulla, eget porta diam sodales in.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Maecenas vestibulum libero lacus, et porta ex tincidunt quis.
-      </ng-vertical-material-tab>
-    
-      <ng-vertical-material-tab tabTitle="Tab 2">
-        Sed dictum, diam et vehicula sollicitudin, eros orci viverra diam, et pretium
-        risus nisl eget ex. Integer lacinia commodo ipsum, sit amet consectetur magna
-        hendrerit eu.
-      </ng-vertical-material-tab>
-    </ng-vertical-material-tabs>
+## Publishing
 
+After building your library with `ng build ng-vertical-tabs`, go to the dist folder `cd dist/ng-vertical-tabs` and run `npm publish`.
+
+## Running unit tests
+
+Run `ng test ng-vertical-tabs` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
